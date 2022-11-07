@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 import { Route, Routes, BrowserRouter } from 'react-router-dom'
 import EditPost from "./pages/posts/EditPost";
@@ -33,7 +34,7 @@ function App() {
                   Blog Admin
                </div>
                <div className="right menu">
-                  <a className="ui item" onClick={handleLogout}>
+                  <a href="!#" className="ui item" onClick={handleLogout}>
                      Logout
                   </a>
                </div>
